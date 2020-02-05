@@ -1,0 +1,10 @@
+@import "variables.scss";
+html{
+  font-size: 12px;
+}
+
+.container{
+  font-family: 'Roboto Condensed', sans-serif;
+  max-width: $container-width;
+  margin: 0 auto;
+}
