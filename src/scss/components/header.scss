@@ -1,0 +1,56 @@
+.header__wrap{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1000px;
+  margin-top: 20px;
+  //border: 1px solid red;
+
+  .header__btn{
+    @include btn-square();
+  }
+
+  .logo{
+    width: 33px;
+    height: 30px;
+    margin: auto 20px;
+  }
+
+}
+
+.main__nav{
+  margin: auto 10px;
+}
+.menu__wrap{
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  max-width: 770px;
+}
+.nav__list{
+  display: flex;
+  margin: auto 20px;
+  padding: 0;
+}
+
+.nav__item{
+  margin-left: 30px;
+}
+.nav__link{
+  text-transform: uppercase;
+  color: $menu-color;
+
+  &:hover{
+    color: $secondary;
+  }
+}
+
+.burger__svg{
+  width: 20px;
+  height: 12px;
+}
+.burger__btn{
+  border: none;
+  background: transparent;
+  margin: auto 20px;
+}

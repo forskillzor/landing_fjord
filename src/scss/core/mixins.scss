@@ -1,0 +1,15 @@
+@mixin btn-square($bg-color: $black, $color: $white, $border: 'square'){
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: none;
+  text-transform: uppercase;
+  background-color: $bg-color;
+  padding: 15px 20px;
+  color: $color;
+  @if ($border == 'square'){
+    border-radius: 5px;
+  }
+  @if ($border == 'round'){
+    border-radius: 20px;
+  }
+}
