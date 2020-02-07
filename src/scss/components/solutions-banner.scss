@@ -1,0 +1,47 @@
+.solutions-banner{
+  position: relative;
+  max-width: 1370px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8%;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 250px;
+
+  .banner__info{
+
+    position: relative;
+    width: 65%;
+    min-height: 500px;
+    padding: 0 0 60px 0;
+    box-sizing: border-box;
+
+    .info{
+
+      &__title{
+        margin: 0 0 50px 0;
+        font-size: 72px;
+        color: $white;
+        font-weight: 200;
+      }
+      &__text{
+        width: 60%;
+        color: $gray;
+        font-size: 14px;
+        line-height: 22px;
+      }
+      &__link{
+        @include btn-square($primary, $black, 'round'){
+          padding: 20px 45px;
+        };
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+  .ipad{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+  }
+}

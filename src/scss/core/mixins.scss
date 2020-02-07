@@ -10,9 +10,12 @@
     border-radius: 5px;
   }
   @if ($border == 'round'){
-    border-radius: 20px;
+    //border-radius: 20px;
+    border-radius: 30px;
   }
   @if ($border == 'none'){
     border-radius: 0;
   }
+
+  @content;
 }
